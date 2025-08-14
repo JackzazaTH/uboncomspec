@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --muted: 248 250 252; --muted-foreground: 100 116 139; }
+.bg-muted\/30 { background-color: rgba(248,250,252,.3); }
+.text-muted-foreground { color: rgb(var(--muted-foreground)); }
+.bg-muted { background-color: rgb(var(--muted)); }
+.modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.4); }
+.modal { position: fixed; top:50%; left:50%; transform: translate(-50%,-50%); background:#fff; width:min(720px,92vw); border-radius:1rem; padding:1rem; box-shadow:0 10px 30px rgba(0,0,0,.2); }
